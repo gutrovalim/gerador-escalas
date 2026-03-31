@@ -1,0 +1,135 @@
+# ── BACKSTAGE ────────────────────────────────────────────────────────────────
+ 
+- nome: Rafael Santana
+  ausencias:
+    - data: 2026-04-05
+      turnos: [manha, noite]
+    - data: 2026-04-12
+      turnos: [manha]
+    - data: 2026-04-19
+      turnos: [manha]
+    - data: 2026-04-24   # Casa de Oração
+    - data: 2026-04-26
+      turnos: [manha]
+ 
+- nome: Débora Bispo
+  ausencias:
+    - data: 2026-04-05
+      turnos: [manha, noite]
+    - data: 2026-04-26
+      turnos: [manha]
+ 
+- nome: Lucas Bispo D
+  ausencias:
+    - data: 2026-04-05
+      turnos: [manha, noite]
+    - data: 2026-04-26
+      turnos: [manha]
+ 
+- nome: Marina Nittani
+  ausencias:
+    - data: 2026-04-05
+      turnos: [noite]
+    - data: 2026-04-12
+      turnos: [manha, noite]
+    - data: 2026-04-19
+      turnos: [noite]
+    - data: 2026-04-24
+    - data: 2026-04-26
+      turnos: [noite]
+ 
+- nome: Larissa Galafassi
+  ausencias:
+    - data: 2026-04-05
+      turnos: [manha, noite]
+    - data: 2026-04-19
+      turnos: [manha, noite]
+ 
+- nome: Michelle Cesare
+  ausencias:
+    - data: 2026-04-19
+      turnos: [manha, noite]
+    - data: 2026-04-24   # Casa de Oração
+ 
+- nome: Alanna Lima
+  ausencias:
+    - data: 2026-04-05
+      turnos: [manha, noite]
+    - data: 2026-04-12
+      turnos: [manha, noite]
+ 
+- nome: Marcos Elias
+  ausencias:
+    - data: 2026-04-12
+      turnos: [manha, noite]
+    - data: 2026-04-24   # Casa de Oração
+ 
+- nome: Anne Colbert
+  ausencias:
+    - data: 2026-04-05
+      turnos: [manha, noite]
+    - data: 2026-04-26
+      turnos: [manha, noite]
+ 
+- nome: Ana Teresa
+  ausencias:
+    - data: 2026-04-05
+      turnos: [manha, noite]
+    - data: 2026-04-24   # Casa de Oração
+    - data: 2026-04-26
+      turnos: [manha]
+ 
+- nome: Camilla Serafim
+  ausencias:
+    - data: 2026-04-05
+      turnos: [manha]
+    - data: 2026-04-12
+      turnos: [manha, noite]
+    - data: 2026-04-24   # Casa de Oração
+    - data: 2026-04-26
+      turnos: [manha, noite]
+ 
+- nome: Paloma Bispo
+  ausencias:
+    - data: 2026-04-05
+      turnos: [manha, noite]
+    - data: 2026-04-12
+      turnos: [manha]
+    - data: 2026-04-19
+      turnos: [noite]
+    - data: 2026-04-26
+      turnos: [manha]
+ 
+- nome: Lucas Bispo P
+  ausencias:
+    - data: 2026-04-05
+      turnos: [manha, noite]
+    - data: 2026-04-12
+      turnos: [manha]
+    - data: 2026-04-19
+      turnos: [noite]
+    - data: 2026-04-26
+      turnos: [manha]
+ 
+# ── TÉCNICA ──────────────────────────────────────────────────────────────────
+ 
+- nome: Lucas Rafael
+  ausencias:
+    - data: 2026-04-05
+    - data: 2026-04-12
+    - data: 2026-04-19
+ 
+- nome: Thayla Nunes
+  ausencias:
+    - data: 2026-04-26
+ 
+- nome: Carlos Oliveira
+  ausencias:
+    - data: 2026-04-12
+    - data: 2026-04-26
+ 
+- nome: Gustavo Trovalim
+  ausencias:
+    - data: 2026-04-05
+    - data: 2026-04-12
+    - data: 2026-04-26

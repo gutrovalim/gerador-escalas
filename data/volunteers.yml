@@ -1,0 +1,368 @@
+ministerios:
+  - slug: tecnica
+    modo: equipe_unica
+  - slug: backstage
+    modo: independente
+
+pares_cross:
+  - membros: [Gustavo Serafim, Camilla Serafim]
+
+pares:
+  - membros: [Paloma Marques, Lucas Bispo P]
+    ministerio: backstage
+  - membros: [Débora Bispo, Lucas Bispo D]
+    ministerio: backstage
+  - membros: [Isabela Aguilera, André Oliveira]
+    ministerio: tecnica
+
+voluntarios:
+  # ── TÉCNICA ──────────────────────────────────────────
+
+  # Áudio
+  - nome: Voluntário RN16 Apenas Manual
+    ministerio: tecnica
+    papeis: [audio]
+    treinamento: []
+    restricoes: [apenas_manual]
+    ativo: true
+
+  - nome: André Oliveira
+    ministerio: tecnica
+    papeis: [audio]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Cristóvão Alves
+    ministerio: tecnica
+    papeis: [audio]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Jefferson Calixto
+    ministerio: tecnica
+    papeis: [audio]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Josué dos Santos
+    ministerio: tecnica
+    papeis: [audio]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Gustavo Trovalim
+    ministerio: tecnica
+    papeis: [iluminacao]
+    treinamento: []
+    restricoes: []
+    ativo: true
+  
+  - nome: Carlos Oliveira
+    ministerio: tecnica
+    papeis: []
+    treinamento: [audio]
+    restricoes: []
+    ativo: true
+  
+  - nome: Gabriela Ferreira
+    ministerio: tecnica
+    papeis: []
+    treinamento: [audio]
+    restricoes: []
+    ativo: true
+
+  # Projeção
+  - nome: Gabriel Arcanjo
+    ministerio: tecnica
+    papeis: [projecao]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: George Belchior
+    ministerio: tecnica
+    papeis: [projecao]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Isabela Aguilera
+    ministerio: tecnica
+    papeis: [projecao]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: William Fernando
+    ministerio: tecnica
+    papeis: [projecao]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Ana Lessa
+    ministerio: tecnica
+    papeis: []
+    treinamento: [projecao]
+    restricoes: []
+    ativo: true
+
+  - nome: Thayla Nunes
+    ministerio: tecnica
+    papeis: []
+    treinamento: [projecao]
+    restricoes: []
+    ativo: true
+
+  - nome: Gabriel Lima
+    ministerio: tecnica
+    papeis: []
+    treinamento: [projecao]
+    restricoes: []
+    ativo: true
+
+  # Iluminação
+  - nome: Gustavo Serafim
+    ministerio: tecnica
+    papeis: [iluminacao]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Osvaldo Migueis
+    ministerio: tecnica
+    papeis: [iluminacao]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Lucas Rafael
+    ministerio: tecnica
+    papeis: [iluminacao]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Lucas Lima
+    ministerio: tecnica
+    papeis: []
+    treinamento: [iluminacao]
+    restricoes: []
+    ativo: true
+  
+  - nome: Caroline Bueno
+    ministerio: tecnica
+    papeis: []
+    treinamento: [iluminacao]
+    restricoes: []
+    ativo: true
+  
+  - nome: Hygor Oliveira
+    ministerio: tecnica
+    papeis: []
+    treinamento: [iluminacao]
+    restricoes: []
+    ativo: true
+
+  # ── BACKSTAGE ────────────────────────────────────────
+
+  - nome: Alanna Lima
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+
+  - nome: Marina Nittani
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: [somente_manha]
+    ativo: true
+
+  - nome: Anne Colbert
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Augusto Afonso
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Camilla Serafim
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Débora Bispo
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Lucas Bispo D
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Lucas Bispo P
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Yomara Sousa
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: [somente_noite]
+    ativo: true
+
+  - nome: Aline Bispo
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Michelle Cesare
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Giovanna Lopes
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Paloma Bispo
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Larissa Galafassi
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Iale Auanne
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Kathleen Lima
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Gustavo Fagundes
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+
+  - nome: Rafael Santana
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+
+  - nome: Marcos Elias
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+  
+  - nome: Ana Teresa
+    ministerio: backstage
+    papeis: [palco, tecnica_bs]
+    treinamento: []
+    restricoes: []
+    ativo: true
+
+  - nome: Anna Batista
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+
+  - nome: Larissa Cruz
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+
+  - nome: Lucas Monteiro
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+
+  - nome: Gustavo Santos 
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+  
+  - nome: Renatha Condeli
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+  
+  - nome: Victoria Romero
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+  
+  - nome: Vinicius Roviezzo
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+  
+  - nome: Vitoria Costa
+    ministerio: backstage
+    papeis: []
+    treinamento: [palco, tecnica_bs]
+    restricoes: []
+    ativo: true
+  
