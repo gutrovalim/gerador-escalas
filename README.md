@@ -50,7 +50,7 @@ Se já existir escala para o mês informado, o sistema pede confirmação antes 
 /
 ├── data/
 │   ├── volunteers.yml       ← voluntários, papéis, restrições e configuração
-│   ├── unavailability.yml   ← indisponibilidades temporárias por mês
+│   ├── unavailability.yml   ← ausências temporárias por mês
 │   └── events.yml           ← eventos especiais além dos cultos dominicais
 ├── output/                  ← escalas geradas (não editar manualmente)
 ├── src/                     ← código-fonte
@@ -126,7 +126,7 @@ Alterar `ativo: true` para `ativo: false`. O histórico é preservado.
 ### Marcar como trainee
 
 Mover o papel de `papeis` para `treinamento`. O voluntário passa a aparecer
-na escala com `(*)` como observador, sem responsabilidade principal.
+na escala na linha de trainee (rótulo «trainee»), como observador, sem responsabilidade principal.
 
 ### Alterar modo de escala de um ministério
 
@@ -140,9 +140,9 @@ ministerios:
 
 ---
 
-## Registrando indisponibilidades
+## Registrando ausências
 
-Editar `data/unavailability.yml`. As indisponibilidades são por mês — limpar ou arquivar
+Editar `data/unavailability.yml`. As ausências são por mês — limpar ou arquivar
 entradas antigas após cada mês gerado.
 
 ```yaml
@@ -171,7 +171,6 @@ Editar `data/events.yml`. Cultos dominicais são gerados automaticamente — nã
   horario_fim: "17:00"
   ministerios: [backstage, tecnica]  # quais ministérios atuam
   papeis: [audio]                    # omitir = todos os papéis dos ministérios
-  pessoa_unica: true                 # uma pessoa cobre todos os papéis (ex: Casa de Oração)
   alocacoes_fixas:
     - papel: audio
       membro: Nome Completo          # alocação definida pelo líder, não sobrescrita
@@ -219,7 +218,7 @@ pytest -v                        # saída detalhada
 
 ## Fluxo mensal sugerido
 
-1. Receber indisponibilidades dos voluntários
+1. Receber ausências dos voluntários
 2. Atualizar `data/unavailability.yml`
 3. Atualizar `data/events.yml` com os eventos do mês
 4. Atualizar `data/volunteers.yml` se houver novos membros ou mudanças

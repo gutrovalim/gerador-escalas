@@ -90,19 +90,10 @@ def _papeis_ordem(m: MinisterioSlug) -> list[PapelSlug]:
     return [PapelSlug.PALCO, PapelSlug.TECNICA_BS]
 
 
-def _sufixo_alocacao(a: Alocacao) -> str:
-    t = ""
-    if a.fixada:
-        t += " †"
-    if a.trainee:
-        t += " (*)"
-    return t
-
-
 def _celula(a: Alocacao | None) -> str:
     if a is None:
         return "—"
-    return f"{a.membro}{_sufixo_alocacao(a)}"
+    return a.membro
 
 
 def _buscar_alocacao(
@@ -356,7 +347,7 @@ def formatar_escala_txt(
             lw = max(lw, 10)
             out.extend(_secao_eventos_especiais(lw, esp, _papeis_ordem(ministerio)))
 
-    out.append("(*) em treinamento    (†) alocação definida pelo líder")
+    out.append("Segunda linha por papel: em treinamento (mesmo formato de nome que o titular).")
     return "\n".join(out).rstrip() + "\n"
 
 
