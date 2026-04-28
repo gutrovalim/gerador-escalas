@@ -13,7 +13,6 @@
   horario_inicio: "20:00"
   horario_fim: "22:00"
   ministerios: [backstage, tecnica]
-  pessoa_unica: true
   papeis: [audio, projecao, iluminacao, palco, tecnica_bs]
   alocacoes_fixas:
     - papel: audio
